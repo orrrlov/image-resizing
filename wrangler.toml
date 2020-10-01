@@ -1,0 +1,9 @@
+name = "image-resizing"
+type = "javascript"
+account_id = ""
+zone_id = ""
+route = "example.com/img/*"
+vars = {
+    BASEPATH = "/img/" # base path where we put images on prod
+    ORIGIN = "https://example.com/" # origin of the images, with trailing slash
+  }

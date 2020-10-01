@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "image-resizing",
+  "version": "1.0.0",
+  "description": "Simplified and query string version of Cloudflare Image Resizing using Workers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Frans Allen <f@upset.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
